@@ -1,0 +1,23 @@
+{
+  "name": "matts-atom-snippets",
+  "version": "0.0.1",
+  "description": "Matt's custom atom snippets.",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattsexton/matts-atom-snippets"
+  },
+  "keywords": [
+    "atom",
+    "snippets"
+  ],
+  "author": "Matt Sexton",
+  "bugs": {
+    "url": "https://github.com/mattsexton/matts-atom-snippets/issues"
+  },
+  "homepage": "https://github.com/mattsexton/matts-atom-snippets"
+}
