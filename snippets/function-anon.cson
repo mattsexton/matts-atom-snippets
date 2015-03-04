@@ -1,8 +1,0 @@
-'Anonymous Function':
-  prefix: 'af'
-  body: """
-    function($1) {
-      ${2:// function body}
-    };
-    $3
-    """

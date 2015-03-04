@@ -1,0 +1,12 @@
+'.source.js':
+  'Protozoa Log Info':
+    prefix: 'ulo'
+    body: 'utils.log.write($1);'
+
+  'Protozoa Log ok':
+    prefix: 'uls'
+    body: 'utils.log.ok($1);'
+
+  'Protozoa Log warn':
+    prefix: 'ulw'
+    body: 'utils.log.warn($1);'

@@ -1,0 +1,16 @@
+'.source.js':
+  'Document Query Selector':
+    prefix: 'dqs'
+    body: 'document.querySelector(\'$1\')$2'
+
+  'Document Query Selector':
+    prefix: 'dqsa'
+    body: 'document.querySelectorAll(\'$1\')$2'
+
+  'Element Query Selector':
+    prefix: 'eqs'
+    body: '$1.querySelector(\'$2\')$3'
+
+  'Element Query Selector':
+    prefix: 'eqsa'
+    body: '$1.querySelectorAll(\'$2\')$3'
