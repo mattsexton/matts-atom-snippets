@@ -2,15 +2,7 @@
   'Anonymous Function':
     prefix: 'af'
     body: """
-      function($1) {
-        ${2:// function body}
-      }$3
-      """
-
-  'Anonymous Function Alt':
-    prefix: 'f'
-    body: """
-      function($1) {
+      function ($1) {
         ${2:// function body}
       }$3
       """
@@ -18,7 +10,7 @@
   'Immdiately Invoked Functional Expression':
     prefix: 'iffy'
     body: """
-      (function(${2:Function Parameters}) {
+      (function (${2:Function Parameters}) {
         ${3:// function body}
       })(${1:IIFE Parameters});$4
       """

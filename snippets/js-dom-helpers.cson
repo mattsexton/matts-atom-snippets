@@ -1,16 +1,24 @@
 '.source.js':
   'Document Query Selector':
     prefix: 'dqs'
-    body: 'document.querySelector(\'$1\')$2'
+    body: 'document.querySelector(\'$1\')${2:;}'
 
-  'Document Query Selector':
+  'Document Query Selector All':
     prefix: 'dqsa'
-    body: 'document.querySelectorAll(\'$1\')$2'
+    body: 'document.querySelectorAll(\'$1\')${2:;}'
 
   'Element Query Selector':
     prefix: 'eqs'
-    body: '$1.querySelector(\'$2\')$3'
+    body: '$1.querySelector(\'$2\')${3:;}'
 
-  'Element Query Selector':
+  'Element Query Selector All':
     prefix: 'eqsa'
-    body: '$1.querySelectorAll(\'$2\')$3'
+    body: '$1.querySelectorAll(\'$2\')${3:;}'
+
+  'Document Add Event Listener':
+    prefix: 'dae'
+    body: 'document.addEventListener(${1:/*Event Name*/}, ${2:/*Listener*/}, ${3:true})${5:;}'
+
+  'Element Add Event Listener':
+    prefix: 'ae'
+    body: '$1.addEventListener(${2:/*Event Name*/}, ${3:/*Listener*/}, ${4:true})${5:;}'
