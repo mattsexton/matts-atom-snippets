@@ -1,12 +1,4 @@
 '.source.js':
-  'Protozoa Log Info':
-    prefix: 'ulo'
-    body: 'utils.log.write($1);'
-
-  'Protozoa Log ok':
-    prefix: 'uls'
-    body: 'utils.log.ok($1);'
-
-  'Protozoa Log warn':
-    prefix: 'ulw'
-    body: 'utils.log.warn($1);'
+  'Standard Inspection':
+    prefix: 'inspect'
+    body: 'console.log(require(\'util\').inspect($1, { depth: ${2:2}, colors: true, showHidden: ${3:true} }));'

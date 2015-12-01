@@ -1,6 +1,10 @@
 '.source.js':
-  'Anonymous Function':
+  'Arrow Function':
     prefix: 'af'
+    body: '($1) => {\n$2\n}'
+    
+  'Anonymous Function':
+    prefix: 'anf'
     body: """
       function ($1) {
         ${2:// function body}
