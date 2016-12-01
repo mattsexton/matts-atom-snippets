@@ -1,4 +1,4 @@
 '.source.js':
   'Standard Inspection':
     prefix: 'inspect'
-    body: 'console.log(require(\'util\').inspect($1, { depth: ${2:2}, colors: true, showHidden: ${3:true} }));'
+    body: 'console.dir(${1:/* object to inspect */}, { depth: ${2:null}, colors: true, showHidden: ${3:true} });'

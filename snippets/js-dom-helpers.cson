@@ -19,6 +19,14 @@
     prefix: 'dae'
     body: 'document.addEventListener(${1:/*Event Name*/}, ${2:/*Listener*/}, ${3:true})${5:;}'
 
+  'Document Remove Event Listener':
+    prefix: 'rae'
+    body: 'document.removeEventListener(${1:/*Event Name*/}, ${2:/*Listener*/}, ${3:true})${5:;}'
+
   'Element Add Event Listener':
-    prefix: 'ae'
+    prefix: 'eae'
     body: '$1.addEventListener(${2:/*Event Name*/}, ${3:/*Listener*/}, ${4:true})${5:;}'
+
+  'Element Remove Event Listener':
+    prefix: 'rae'
+    body: '$1.removeEventListener(${2:/*Event Name*/}, ${3:/*Listener*/}, ${4:true})${5:;}'

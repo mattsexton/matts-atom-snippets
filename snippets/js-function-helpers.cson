@@ -2,9 +2,13 @@
   'Arrow Function':
     prefix: 'af'
     body: '($1) => {\n$2\n}'
-    
+
+  'Arrow Function Single':
+    prefix: 'afs'
+    body: '($1) => $2'
+
   'Anonymous Function':
-    prefix: 'anf'
+    prefix: 'f'
     body: """
       function ($1) {
         ${2:// function body}
@@ -12,9 +16,17 @@
       """
 
   'Immdiately Invoked Functional Expression':
-    prefix: 'iffy'
+    prefix: 'iife'
     body: """
       (function (${2:Function Parameters}) {
         ${3:// function body}
       })(${1:IIFE Parameters});$4
       """
+
+  'Promise Arrow Function':
+    prefix: 'prom'
+    body: """
+      new Promise((${1:resolve}, ${2:reject}) => {
+        ${3: // Promise body}
+      });
+    """
