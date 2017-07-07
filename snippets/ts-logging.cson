@@ -1,4 +1,4 @@
-'.source.js':
+'.source.ts':
   'Standard Inspection':
     prefix: 'dir'
     body: """

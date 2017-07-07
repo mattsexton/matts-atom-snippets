@@ -1,11 +1,11 @@
-'.source.js':
+'.source.ts':
   'Arrow Function':
     prefix: 'af'
-    body: '($1) => {\n$2\n}'
+    body: '$1 => {\n$2\n}'
 
   'Arrow Function Single':
     prefix: 'afs'
-    body: '($1) => $2'
+    body: '$1 => $2'
 
   'Anonymous Function':
     prefix: 'f'
